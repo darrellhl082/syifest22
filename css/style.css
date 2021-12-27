@@ -1,0 +1,363 @@
+@media only screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .desktop {
+        display: none;
+    }
+
+}
+
+.mobile,
+.desktop {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.brand1:hover {
+    color: #ffd700;
+}
+
+nav {
+    z-index: 9999;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+.brand1 {
+    font-family: 'Roboto Condensed', Arial, Helvetica, sans-serif;
+    color: #ffd700;
+}
+
+
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #F9BB13;
+}
+
+
+
+.navTr {
+    background-color: transparent;
+    padding-top: 17px;
+    padding-bottom: 17px;
+
+    transition: 0.35s;
+}
+
+.navLi {
+    background-color: #F9BB13;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    transition: 0.35s;
+
+}
+
+.content {
+    margin-top: 1vh;
+}
+
+img.logo {
+    width: 300px;
+    margin-top: 20px;
+}
+
+
+.box {
+    width: 90%;
+    background-color: #F9BB13;
+    padding: 10px;
+    list-style-type: none;
+    border-radius: 20px;
+
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: -40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title2 {
+    font-size: 35px;
+    font-weight: bolder;
+    color: #d27f29;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about,
+.teaser,
+.registrasi,
+.sponsor,
+.about-desk,
+.teaser-desk,
+.regis-desk,
+.lomba-desk,
+.sponsor-desk,
+.sponsor-base {
+    background-color: #F8E9BD;
+}
+
+
+.asap-1 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.asap-2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: rotateY(180deg);
+}
+
+.title3 {
+    font-size: 30px;
+    letter-spacing: 7px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.title3-desc {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.pasirjatoh {
+    margin-top: -30vh;
+}
+
+.about-icon {
+    margin-top: -30px;
+}
+
+.text-desc,
+.regis-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-desc p {
+    font-size: 40px;
+}
+
+.text-desc.p-4 {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+
+}
+
+.lomba-mob-icon .text-desc.p-4 {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+
+}
+
+.lomba-desktop-icon .text-desc.p-4 {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+
+}
+
+.teaser-title,
+.title-lomba {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-regis {
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.video-border {
+    border: 5px solid #d27f29;
+}
+
+.teaser-video {
+    width: 100%;
+    height: 30vh;
+}
+
+.regis-btn span {
+    margin-top: -12px
+}
+
+.logo {
+    margin-top: -1000px;
+}
+
+.title1desktop {
+    font-size: 4.5vw;
+    font-weight: bolder;
+    margin-top: -90px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title1desktop-desc {
+    font-size: 4vw;
+    margin-top: -20px;
+    font-weight: bolder;
+    color: #d27f29;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about-title1 {
+    margin-top: 80px;
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.about-desc {
+    width: 55%;
+    margin: auto;
+    font-size: 18px;
+}
+
+#pendaftaran {
+    margin-top: -20vh;
+}
+
+#lomba {
+    margin-top: -10vh;
+}
+
+.sponsor-base {
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+}
+
+.sponsor {
+    background-color: black;
+}
+
+.descripte-what-desktop {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+div.desktop-desc p {
+    font-size: 2.5vw;
+}
+
+.desktop-desc:hover {
+    cursor: pointer;
+}
+
+.descripte-area.p-4 {
+    color: black;
+    background-color: transparent;
+    font-size: 2vw;
+}
+
+.title2desktop {
+    font-size: 40px;
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-top: 30px;
+}
+
+
+.teaser-video-desk {
+    width: 90%;
+    height: 90%;
+}
+
+.video {
+    height: 50vh;
+    margin-top: 30px;
+}
+
+.regis-desk * {
+    margin-top: 40px;
+}
+
+.regis-shape {
+    margin-top: -100vh;
+}
+
+.regis-link a h1 {
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    margin-top: -20px;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.regis-link a span {
+    font-family: 'Roboto Condensed',
+        Arial,
+        Helvetica,
+        sans-serif;
+    font-size: 2vw;
+
+
+}
+
+.lomba-desk {
+    margin-top: -10vh;
+    padding: 0 5vh;
+}
+
+.title-lomba-desk {
+    font-size: 40px;
+    font-family: 'Poppins',
+        sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+
+}
+
+.lomba-mob-icon {
+    border: 4px solid #d27f29;
+    margin-bottom: 25px;
+}
+
+.lomba-mob-icon:hover {
+    cursor: pointer;
+}
+
+.lomba-desk-icon {
+    width: 50%;
+    margin: auto;
+    margin-top: 1vh;
+    border: 4px solid #d27f29;
+}
+
+.title-lomba-place {
+    margin-bottom: 5vh;
+    padding-bottom: 10px;
+    border-bottom: 3.5px solid #d27f29;
+}
+
+.sponsor-desk img {
+    margin-top: 20vh;
+}
